@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <h1>Welcome to Training Management</h1>
+      <p>Empowering your team with professional development</p>
+      <p class="copyright">&copy; 2024 Training Management System</p> <!-- Moved copyright here -->
+    </div>
+  </header>
+
+  <main>
+    <section class="content-container">
+      <div class="training-header">
+        <h2>Training Management System</h2>
+      </div>
+
+      <section class="form-section">
+        <h2>Add a New Training</h2>
+        <form id="training-form">
+          <div class="form-group">
+            <label for="title">Training Title</label>
+            <input type="text" id="title" placeholder="Enter Training Title" required>
+          </div>
+          <div class="form-group">
+            <label for="field">Training Field</label>
+            <input type="text" id="field" placeholder="Enter Field (e.g., IT, Management)" required>
+          </div>
+          <div class="form-group">
+            <label for="numberOfDays">Duration (Days)</label>
+            <input type="number" id="numberOfDays" placeholder="Enter Number of Days" required>
+          </div>
+          <button type="submit">Add Training</button>
+        </form>
+      </section>
+
+      <section class="training-list">
+        <h2>Training Sessions</h2>
+        <div class="training-cards" id="training-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer content is now removed since copyright is moved to the hero section -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
