@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(express.static('public'));  // Serve the frontend static files from 'public'
 
 // Routes
+app.use("/profile", profileRoutes);
 app.use("/participants", participantRoutes);
 app.use("/instructors", instructorRoutes);
 app.use("/trainings",trainingRoutes);
