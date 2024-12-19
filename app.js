@@ -1,8 +1,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import participantRoutes from './participantRoutes.js';
-import instructorRoutes from './instructorRoutes.js";
-import trainingRoutes from './trainingRoutes.js';
+import participantRoutes from './routes/participantRoutes.js';
+import instructorRoutes from './routes/instructorRoutes.js";
+import trainingRoutes from './routes/trainingRoutes.js';
 
 const app = express();
 
