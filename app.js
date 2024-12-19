@@ -1,5 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import profileRoutes from './routes/profileRoutes.js';
 import participantRoutes from './routes/participantRoutes.js';
 import instructorRoutes from './routes/instructorRoutes.js";
 import trainingRoutes from './routes/trainingRoutes.js';
